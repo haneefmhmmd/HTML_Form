@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <title></title>
+  </head>
+  <body>
+      <div class="navbar">
+        <div class="pageTitle">
+          <h1>New Event Request</h1>
+        </div>
+        <div class="link">
+          <a href="#">Back</a>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="leftContent">
+          <div class="basicInfo">
+            <h3>Basic info</h3>
+            <div class="evenTitle">
+              <p>Event Title<span>*</span></p>
+              <input id="evenTitle" type="text"  placeholder="Enter title">
+            </div>
+          </div>
+        </div>
+        <div class="rightContent">
+          <div class="category">
+            <p>Category</p>
+            <select class="categoryOption" name="">
+              <option value="">select category</option>
+              <option value="">Option1</option>
+              <option value="">Option2</option>
+              <option value="">Option3</option>
+            </select>
+          </div>
+        </div>
+    </div>
+    <div class="content">
+      <div class="leftContent">
+        <div class="agenda">
+          <p>Agenda<span>*</span></p>
+          <textarea id=agendaInput rows="8" cols="80" placeholder="Write a agenda of event"></textarea>
+        </div>
+      </div>
+      <div class="rightContent">
+        <div class="business">
+          <p>Business Purpose Of the Invitation</p>
+          <textarea rows="8" col="80" placeholder="Write a short Purpose of event"></textarea>
+        </div>
+      </div>
+      </div>
+
+    </div>
+
+    <div class="location">
+      <h3>Location</h3>
+      <select>
+        <option>Select location</option>
+        <option value="">Location1</option>
+        <option value="">Location2</option>
+        <option value="">Location3</option>
+      </select>
+    </div>
+  </div>
+  <div class="others">
+    <h3>Others</h3>
+    <div class="ageGroup">
+      <p>Age Group</p>
+      <div class="radioBtn">
+        <input type="radio" name="radio" value="0-30"><label for="0-30">0-30</label>
+      </div>
+      <div class="radioBtn">
+      <input type="radio" name="radio" value="31-60"><label for="31-60">31-60</label>
+      </div>
+      <div class="radioBtn">
+      <input type="radio" name="radio" value="60-100"><label for="60-100">60-100</label>
+      </div>
+  </div>
+  <div class="participants">
+    <p>Participants</p>
+    <div class="radioBtn">
+      <input type="radio" name="participants" value="Office"><label for="Office">Office</label>
+    </div>
+    <div class="radioBtn">
+    <input type="radio" name="participants" value="Non-Office"><label for="Non-Office">Non-Office</label>
+    </div>
+    <div class="radioBtn">
+    <input type="radio" name="participants" value="Both"><label for="Both">Both</label>
+    </div>
+</div>
+</div>
+<div class="approverDetails">
+  <h3>Approver Details</h3>
+  <p>Select Approver<span>*</span></p>
+  <select class="" name="">
+    <option value="">Select Approver</option>
+    <option value="">Approver1</option>
+    <option value="">Approver2</option>
+    <option value="">Approver3</option>
+  </select>
+</div>
+  <div class="navbar">
+    <div class="link">
+      <a href="#">Cancel Reservation</a>
+      <button type="button" name="button">Submit for Approval</button>
+      <!-- <a href="#" class="submit">Submit for Approval</a> -->
+    </div>
+  </div>
+  <div class="database">
+  </div>
+  <script src="form.js"></script>
+  </body>
+</html>
